@@ -1,0 +1,75 @@
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Importing AAPL ...
+Importing MSFT ...
+Importing NVDA ...
+Importing TSLA ...
+Importing AMD ...
+
+================ PORTFOLIO SNAPSHOT ================
+AAPL   last:   355.63 | chg:   +7.12 (+2.04%) | hi:   355.91 | lo:  243.42 | vol: 34,284,700
+MSFT   last:   521.13 | chg:  -12.03 (-2.26%) | hi:   559.15 | lo:  349.20 | vol: 28,990,100
+NVDA   last:   173.73 | chg:   +4.84 (+2.87%) | hi:   243.37 | lo:  164.27 | vol: 313,417,400
+TSLA   last:   390.84 | chg:  +11.06 (+2.91%) | hi:   458.34 | lo:  297.38 | vol: 27,735,900
+AMD    last:   552.90 | chg:  +37.69 (+7.32%) | hi:   658.52 | lo:  188.22 | vol: 44,707,100
+
+================ STATISTICS ================
+  Symbol    Mean Mode Median    StDev MA20_latest
+1   AAPL 296.926  259 298.97  32.1105     344.866
+2   MSFT 442.892  373 422.79  55.1120     530.466
+3   NVDA 203.007  183 204.12  17.4701     203.805
+4   TSLA 387.411  417 390.82  33.2606     381.835
+5    AMD 405.053  203 466.42 147.1114     517.603
+
+--- AAPL last 5 sessions ---
+           AAPL.Open AAPL.High AAPL.Low AAPL.Close AAPL.Volume AAPL.Adjusted
+2026-11-05    353.89    355.38   342.06     344.17    75678900        344.17
+2026-11-06    338.73    345.79   338.30     342.37    44703800        342.37
+2026-11-09    345.00    352.33   344.78     350.69    48753100        350.69
+2026-11-10    351.35    353.87   346.46     348.51    29756100        348.51
+2026-11-11    349.55    355.91   349.33     355.63    34284700        355.63
+
+--- MSFT last 5 sessions ---
+           MSFT.Open MSFT.High MSFT.Low MSFT.Close MSFT.Volume MSFT.Adjusted
+2026-11-05    554.94    557.62   532.68     535.93    42507900        535.93
+2026-11-06    525.69    538.33   524.47     530.61    26956400        530.61
+2026-11-09    544.49    548.28   538.70     545.18    25337400        545.18
+2026-11-10    542.98    544.19   526.37     533.16    26940900        533.16
+2026-11-11    534.24    534.76   518.45     521.13    28990100        521.13
+
+--- NVDA last 5 sessions ---
+           NVDA.Open NVDA.High NVDA.Low NVDA.Close NVDA.Volume NVDA.Adjusted
+2026-11-05    196.07    196.25   181.46     181.60   306127800        181.60
+2026-11-06    191.10    194.90   185.22     186.64   180212300        186.64
+2026-11-09    173.07    179.92   170.24     178.67   462719300        178.67
+2026-11-10    173.97    174.69   165.89     168.89   429273200        168.89
+2026-11-11    172.80    177.54   170.77     173.73   313417400        173.73
+
+--- TSLA last 5 sessions ---
+           TSLA.Open TSLA.High TSLA.Low TSLA.Close TSLA.Volume TSLA.Adjusted
+2026-11-05    374.12    374.30   338.15     343.69    79675500        343.69
+2026-11-06    348.92    363.84   347.60     358.22    36730400        358.22
+2026-11-09    360.25    382.20   360.02     378.05    36341400        378.05
+2026-11-10    370.85    380.00   370.40     379.78    23999800        379.78
+2026-11-11    386.58    395.43   386.35     390.84    27735900        390.84
+
+--- AMD last 5 sessions ---
+           AMD.Open AMD.High AMD.Low AMD.Close AMD.Volume AMD.Adjusted
+2026-11-05   452.50   456.20  402.10    404.40   71237400       404.40
+2026-11-06   444.43   459.80  433.30    449.04   45759800       449.04
+2026-11-09   473.39   515.18  468.21    508.58   51261000       508.58
+2026-11-10   502.80   539.25  495.00    515.21   47159100       515.21
+2026-11-11   543.08   567.65  522.65    552.90   44707100       552.90
+
+Charts written: chart_AAPL.png, chart_MSFT.png, chart_NVDA.png, chart_TSLA.png, chart_AMD.png 
